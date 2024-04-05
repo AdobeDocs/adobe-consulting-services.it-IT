@@ -2,7 +2,7 @@
 title: Panoramica sull'integrazione di Veeva Vault
 description: Panoramica sull'integrazione di Veeva Vault
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 4d27e7ecca662b2082a18621becb0b8ec7735824
+source-git-commit: 005c738818ab622a342ddc3a94e94638e344d058
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -101,3 +101,4 @@ I ticket di supporto possono essere registrati con l’Assistenza clienti di Ado
 ### Richiesta di supporto per Veeva Vault PromoMats
 
 A volte, il problema che si verifica è un problema con il funzionamento dell&#39;istanza Veeva Vault PromoMats. In questo caso, l’amministratore Veeva Vault PromoMats potrebbe essere invitato a creare un ticket di supporto con [Supporto Veeva](http://support.veeva.com/). Lo stato dell’istanza Veeva può essere visualizzato passando a [Veeva Trust](http://trust.veeva.com/).
+
