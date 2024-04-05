@@ -2,7 +2,7 @@
 title: Panoramica sull'integrazione di Veeva Vault
 description: Panoramica sull'integrazione di Veeva Vault
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 005c738818ab622a342ddc3a94e94638e344d058
+source-git-commit: 2e47baa4a255c34b3ca0b8631650dd5d8960fea8
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -33,8 +33,7 @@ Questa integrazione richiede almeno le seguenti versioni del software:
 Questa integrazione è progettata per supportare due casi d’uso principali:
 
 1. Approvazione dei contenuti: quando vengono creati nuovi contenuti o se ne è stato modificato di esistenti in AEM, i contenuti devono essere approvati per l’utilizzo in VVPM a supporto del processo di approvazione medico, legale, normativo (MLR) per le scienze biologiche.
-
-2. Gestione dei contenuti: fornisce visibilità sull’utilizzo delle risorse stabilendo relazioni in PromoMats tra le tattiche digitali (ad esempio e-mail, presentazioni, siti web) e i loro elementi (ad esempio loghi, fotografie, grafici) creati in AEM per i documenti provenienti dall’AEM.
+1. Gestione dei contenuti: fornisce visibilità sull’utilizzo delle risorse stabilendo relazioni in PromoMats tra le tattiche digitali (ad esempio e-mail, presentazioni, siti web) e i loro elementi (ad esempio loghi, fotografie, grafici) creati in AEM per i documenti provenienti dall’AEM.
 
 I vantaggi includono:
 
@@ -67,7 +66,6 @@ Quali operazioni NON vengono eseguite dal connettore?
 >[!IMPORTANT]
 >
 >Questa integrazione considera attualmente l’AEM come la fonte di verità per la sincronizzazione dei contenuti.
->
 
 ## Ottenere l’integrazione
 
