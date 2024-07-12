@@ -45,10 +45,10 @@ I vantaggi includono:
 
 Che funzione svolge l’integrazione?
 
-* Supporta l&#39;invio di pagine del sito AEM, risorse, frammenti di contenuto e frammenti di esperienza a VPM. Le pagine AEM, i frammenti di contenuto e i frammenti di esperienza possono essere inviati come PDF di schermata o immagini. I file binari di AEM Assets vengono inviati così come sono.
+* Supporta l’invio di pagine di siti AEM, Assets, frammenti di contenuto e frammenti di esperienza a VPM. Le pagine AEM, i frammenti di contenuto e i frammenti di esperienza possono essere inviati come PDF di schermata o immagini. I file binari di AEM Assets vengono inviati così come sono.
 * Supporta la sincronizzazione manuale e automatizzata di determinati elementi di metadati configurabili da AEM a VPM.
 * Supporta la sincronizzazione manuale e automatizzata di alcuni elementi di metadati configurabili da VVPM a AEM.
-* Supporta le relazioni tra pagine del sito AEM, risorse, frammenti di contenuto e frammenti di esperienza in VVPM per automatizzare le relazioni tra i contenuti.
+* Supporta le relazioni tra pagine del sito AEM, Assets, frammenti di contenuto e frammenti di esperienza in VVPM per automatizzare le relazioni tra i contenuti.
 * Supporta la generazione di rendering per più tipi di dispositivi.
 
 >[!NOTE]
@@ -77,9 +77,9 @@ Per richiedere e configurare l’integrazione, segui i dettagli del diagramma di
 
 Dettagli del diagramma di flusso (mappa ai passaggi precedenti):
 
-* **Passaggio 1** - Si presume che l&#39;utente disponga già di una licenza per Veeva Vault PromoMats e per Adobe Experience Manager o che sia in procinto di ottenerla.
-* **Passaggio 2** - Per sfruttare i vantaggi dell&#39;integrazione, sarà necessario firmare un nuovo ordine di vendita (SO) che delinei un contratto di manutenzione con Adobe Consulting.
-* **Passaggio 3** : installa, attiva e configura il pacchetto di integrazione.
+* **Passaggio 1** - Si presume che tu disponga già di una licenza per Veeva Vault PromoMats e per Adobe Experience Manager o che sia in procinto di ottenerla.
+* **Passaggio 2** - Per usufruire dell&#39;integrazione, è necessario firmare un nuovo ordine di vendita (SO) che delinea un contratto di manutenzione con Adobe Consulting.
+* **Passaggio 3** - Installa, attiva e configura il pacchetto di integrazione.
 
 ## Supporto
 
@@ -87,7 +87,7 @@ Di seguito viene descritto come contattare e segnalare un problema con il team d
 
 ### Richiesta di integrazione o supporto Adobe Experience Manager
 
-I ticket di supporto possono essere registrati con l’Assistenza clienti di Adobe. L&#39;amministratore di Adobe Experience Cloud dovrà effettuare l&#39;accesso a [Adobe Admin Console](https://adminconsole.adobe.com/), fare clic sulla scheda supporto e creare una controversia. Per qualsiasi problema relativo all’integrazione, assicurati di includere le seguenti informazioni:
+I ticket di supporto possono essere registrati con l’Assistenza clienti di Adobe. L&#39;amministratore di Adobe Experience Cloud dovrà accedere a [Adobe Admin Console](https://adminconsole.adobe.com/), fare clic sulla scheda supporto e creare un caso. Per qualsiasi problema relativo all’integrazione, assicurati di includere le seguenti informazioni:
 
 * **Titolo processo**: `AEM - Veeva Vault Integration`
 * **Proprietario processo**: `Data Engineering`
@@ -98,5 +98,5 @@ I ticket di supporto possono essere registrati con l’Assistenza clienti di Ado
 
 ### Richiesta di supporto per Veeva Vault PromoMats
 
-A volte, il problema che si verifica è un problema con il funzionamento dell&#39;istanza Veeva Vault PromoMats. In questo caso, l’amministratore Veeva Vault PromoMats potrebbe essere invitato a creare un ticket di supporto con [Supporto Veeva](http://support.veeva.com/). Lo stato dell’istanza Veeva può essere visualizzato passando a [Veeva Trust](http://trust.veeva.com/).
+A volte, il problema che si verifica è un problema con il funzionamento dell&#39;istanza Veeva Vault PromoMats. In questo caso, l&#39;amministratore Veeva Vault PromoMats potrebbe essere invitato a creare un ticket di supporto con [Supporto Veeva](http://support.veeva.com/). Lo stato dell&#39;istanza di Veeva può essere visualizzato passando a [Trust Veeva](http://trust.veeva.com/).
 

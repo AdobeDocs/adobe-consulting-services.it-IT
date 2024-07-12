@@ -37,7 +37,7 @@ Quando utilizzi questa integrazione, considera le seguenti limitazioni:
 * L’integrazione non importa il contenuto da VPM a AEM.
 * Convalida dei metadati non supportata.
 * Il numero di documenti è limitato in base alla licenza Veeva. Consulta [Limitazioni di licenza](#veeva-license-limitations).
-* Il numero di chiamate API è limitato in base alla licenza Veeva. Per ulteriori informazioni, consulta [Limitazioni per le API](https://developer.veevavault.com/docs/#what-are-rate-limits). Consulta [Limitazioni di licenza](#veeva-license-limitations).
+* Il numero di chiamate API è limitato in base alla licenza Veeva. Per ulteriori informazioni, consulta [Limitazioni API](https://developer.veevavault.com/docs/#what-are-rate-limits). Consulta [Limitazioni di licenza](#veeva-license-limitations).
 
 ## Limitazioni delle licenze Veeva
 

@@ -1,6 +1,6 @@
 ---
 sub-product: Adobe Consulting Services
-user-guide-title: Servizi di consulenza Adobe
+user-guide-title: Servizi Adobe Consulting
 breadcrumb-title: Guida di ACS
 user-guide-description: Documentazione per le soluzioni create da ACS per l’utilizzo con AEM.
 hide: true
@@ -12,6 +12,6 @@ ht-degree: 4%
 ---
 
 
-# Servizi di consulenza Adobe {#using}
+# Servizi Adobe Consulting {#using}
 
 + [Panoramica](overview.md)
