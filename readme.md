@@ -5,9 +5,9 @@ source-wordcount: '78'
 ht-degree: 74%
 
 ---
-# Servizi di consulenza Adobe
+# Servizi Adobe Consulting
 
-Questo è l’archivio della documentazione per le soluzioni AEM create e gestite da Adobe Consulting Services (ACS).
+Questo è l’archivio della documentazione relativa alle soluzioni AEM create e gestite dai servizi Adobe Consulting (ACS).
 
 Saremo lieti di accogliere anche il contributo alla documentazione. Consulta le risorse seguenti:
 
