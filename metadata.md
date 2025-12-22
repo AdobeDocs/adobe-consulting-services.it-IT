@@ -1,11 +1,12 @@
 ---
 product: adobe experience manager
 solution: Experience Manager
-description: Documentazione di Consulting Experience Manager
+description: Consulenza Documentazione di Experience Manager
 type: Documentation
-git-repo: https://github.com/AdobeDocs/adobe-consulting-services.it-IT
+git-repo: https://github.com/Adobe-Enterprise-Docs/adobe-consulting-services.it-IT
 index: y
-source-git-commit: e2dac4b36fb94d72b72ef6f73a77e3f566539444
+hide: n
+source-git-commit: d36298f9c8abf2859e2a8fc9be92d2fcae8d60cf
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 54%
@@ -39,4 +40,4 @@ Articolo
 * `title`
 * `description`
 
-Ulteriori informazioni sui metadati sono disponibili nella sezione [guida all’authoring interno](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html).
+Ulteriori informazioni sui metadati sono disponibili nella [guida all&#39;authoring interno](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html).
