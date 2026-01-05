@@ -2,7 +2,7 @@
 title: Panoramica sull'integrazione di Veeva Vault
 description: Panoramica sull'integrazione di Veeva Vault
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: b024e4295b5b37030c1524342832400c279c650a
+source-git-commit: 395228eb060833c5c8e202d6935201965e8ea474
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -99,3 +99,4 @@ I ticket di supporto possono essere registrati presso l’Assistenza clienti di 
 ### Richiesta di supporto per Veeva Vault PromoMats
 
 A volte, il problema che si verifica è un problema con il funzionamento dell&#39;istanza Veeva Vault PromoMats. In questo caso, l&#39;amministratore Veeva Vault PromoMats potrebbe essere invitato a creare un ticket di supporto con [Supporto Veeva](http://support.veeva.com/). Lo stato dell&#39;istanza di Veeva può essere visualizzato passando a [Trust Veeva](http://trust.veeva.com/).
+
