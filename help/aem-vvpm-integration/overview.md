@@ -2,7 +2,7 @@
 title: Panoramica sull'integrazione di Veeva Vault
 description: Panoramica sull'integrazione di Veeva Vault
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 2e47baa4a255c34b3ca0b8631650dd5d8960fea8
+source-git-commit: b024e4295b5b37030c1524342832400c279c650a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -25,29 +25,29 @@ Questa integrazione richiede almeno le seguenti versioni del software:
 
 >[!IMPORTANT]
 >
->Questa funzionalità non è disponibile come funzione predefinita del prodotto. L’implementazione richiede un contratto di manutenzione Adobe Consulting. Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
+>Questa funzionalità non è disponibile come funzione predefinita del prodotto. L’implementazione richiede un contratto di manutenzione Adobe Consulting. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 >
 
 ## Principi e caratteristiche
 
 Questa integrazione è progettata per supportare due casi d’uso principali:
 
-1. Approvazione dei contenuti: quando vengono creati nuovi contenuti o se ne è stato modificato di esistenti in AEM, i contenuti devono essere approvati per l’utilizzo in VVPM a supporto del processo di approvazione medico, legale, normativo (MLR) per le scienze biologiche.
-1. Gestione dei contenuti: fornisce visibilità sull’utilizzo delle risorse stabilendo relazioni in PromoMats tra le tattiche digitali (ad esempio e-mail, presentazioni, siti web) e i loro elementi (ad esempio loghi, fotografie, grafici) creati in AEM per i documenti provenienti dall’AEM.
+1. Approvazione dei contenuti: quando vengono creati nuovi contenuti o se ne è stato modificato uno esistente in AEM, i contenuti devono essere approvati per l’utilizzo in VPM a supporto del processo di approvazione medico, legale e normativo (MLR) per le scienze biomediche.
+1. Gestione dei contenuti: fornisci visibilità sull’utilizzo delle risorse stabilendo relazioni in PromoMats tra le tattiche digitali (ad esempio e-mail, presentazioni, siti web) e i relativi elementi (ad esempio loghi, fotografie, grafici) creati in AEM per i documenti provenienti da AEM.
 
 I vantaggi includono:
 
 * Mantenere un’unica fonte di verità per risorse e contenuti senza duplicazioni negli archivi digitali.
-* Utilizzo di Veeva Vault per la gestione dei diritti e della conformità e di AEM per la creazione e la distribuzione di contenuti e risorse di livello superiore.
+* Utilizzo di Veeva Vault per la gestione dei diritti e della conformità e di AEM per la creazione e la distribuzione di contenuti e risorse all&#39;avanguardia.
 * Consente di automatizzare i contenuti e i metadati in movimento tra AEM e Veeva Vault.
 * Riduce l’impegno manuale nell’invio di contenuti a Veeva per i flussi di lavoro di approvazione.
 * Ogni sistema viene utilizzato per i suoi punti di forza e il connettore aiuta a spostare automaticamente i contenuti tra i sistemi per velocizzare i tempi di commercializzazione.
 
 Che funzione svolge l’integrazione?
 
-* Supporta l’invio di pagine di siti AEM, Assets, frammenti di contenuto e frammenti di esperienza a VPM. Le pagine AEM, i frammenti di contenuto e i frammenti di esperienza possono essere inviati come PDF di schermata o immagini. I file binari di AEM Assets vengono inviati così come sono.
+* Supporta l’invio di pagine del sito AEM, Assets, frammenti di contenuto e frammenti di esperienza a VPM. Le pagine, i frammenti di contenuto e i frammenti di esperienza di AEM possono essere inviati come PDF o immagini della schermata. I file binari di AEM Assets vengono inviati così come sono.
 * Supporta la sincronizzazione manuale e automatizzata di determinati elementi di metadati configurabili da AEM a VPM.
-* Supporta la sincronizzazione manuale e automatizzata di alcuni elementi di metadati configurabili da VVPM a AEM.
+* Supporta la sincronizzazione manuale e automatizzata di alcuni elementi di metadati configurabili da VVPM ad AEM.
 * Supporta le relazioni tra pagine del sito AEM, Assets, frammenti di contenuto e frammenti di esperienza in VVPM per automatizzare le relazioni tra i contenuti.
 * Supporta la generazione di rendering per più tipi di dispositivi.
 
@@ -58,14 +58,14 @@ Che funzione svolge l’integrazione?
 
 Quali operazioni NON vengono eseguite dal connettore?
 
-* Non replica i processi e le funzionalità dell’AEM in Veeva o viceversa.
+* Non replica i processi e le funzionalità di AEM in Veeva o viceversa.
 * Non esegue MLR da sola. Aiuta nell’automazione dell’invio di contenuti a Veeva dove avviene MLR.
 * Non deve essere utilizzato per creare una configurazione identica tra AEM e Veeva. Non tutti i contenuti devono essere spostati tra le due piattaforme.
 
 
 >[!IMPORTANT]
 >
->Questa integrazione considera attualmente l’AEM come la fonte di verità per la sincronizzazione dei contenuti.
+>Questa integrazione attualmente considera AEM come la fonte di verità per la sincronizzazione dei contenuti.
 
 ## Ottenere l’integrazione
 
@@ -73,7 +73,7 @@ Per eseguire il provisioning di questa integrazione, segui i passaggi indicati d
 
 Per richiedere e configurare l’integrazione, segui i dettagli del diagramma di flusso e del diagramma di flusso riportati di seguito.
 
-![Richiedi accesso](assets/integration-request.png)
+![Richiedere l’accesso](assets/integration-request.png)
 
 Dettagli del diagramma di flusso (mappa ai passaggi precedenti):
 
@@ -87,7 +87,7 @@ Di seguito viene descritto come contattare e segnalare un problema con il team d
 
 ### Richiesta di integrazione o supporto Adobe Experience Manager
 
-I ticket di supporto possono essere registrati con l’Assistenza clienti di Adobe. L&#39;amministratore di Adobe Experience Cloud dovrà accedere a [Adobe Admin Console](https://adminconsole.adobe.com/), fare clic sulla scheda supporto e creare un caso. Per qualsiasi problema relativo all’integrazione, assicurati di includere le seguenti informazioni:
+I ticket di supporto possono essere registrati presso l’Assistenza clienti di Adobe. L&#39;amministratore di Adobe Experience Cloud dovrà accedere a [Adobe Admin Console](https://adminconsole.adobe.com/), fare clic sulla scheda supporto e creare un caso. Per qualsiasi problema relativo all’integrazione, assicurati di includere le seguenti informazioni:
 
 * **Titolo processo**: `AEM - Veeva Vault Integration`
 * **Proprietario processo**: `Data Engineering`
@@ -99,4 +99,3 @@ I ticket di supporto possono essere registrati con l’Assistenza clienti di Ado
 ### Richiesta di supporto per Veeva Vault PromoMats
 
 A volte, il problema che si verifica è un problema con il funzionamento dell&#39;istanza Veeva Vault PromoMats. In questo caso, l&#39;amministratore Veeva Vault PromoMats potrebbe essere invitato a creare un ticket di supporto con [Supporto Veeva](http://support.veeva.com/). Lo stato dell&#39;istanza di Veeva può essere visualizzato passando a [Trust Veeva](http://trust.veeva.com/).
-
