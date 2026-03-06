@@ -3,13 +3,12 @@ product: adobe experience manager
 solution: Experience Manager
 description: Consulenza Documentazione di Experience Manager
 type: Documentation
-git-repo: https://github.com/Adobe-Enterprise-Docs/adobe-consulting-services.it-IT
-index: y
-author: Anon
-source-git-commit: ac36c3ae49021c2b66234c8664df0969995aba62
+git-repo: https://github.com/AdobeDocs/adobe-consulting-services.it-IT
+index: true
+source-git-commit: f491b48a151904f13becc146beab52600c9cef46
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 54%
+source-wordcount: '94'
+ht-degree: 2%
 
 ---
 
@@ -19,10 +18,10 @@ ht-degree: 54%
 I metadati nel sistema di authoring GitHub sono gerarchici e sono definiti in base ai seguenti livelli crescenti di precedenza.
 
 1. metadata.md
-1. Sommario
+1. ToC
 1. Articolo
 
-I metadati definiti nel file metadata.md si applicano all’intero archivio, ma possono essere ignorati a livello di sommario e articolo. Eventuali esclusioni dei metadati devono essere eseguite al livello più basso possibile.
+I metadati definiti nel file metadata.md si applicano all’intero archivio, ma possono essere ignorati a livello di sommario e di articolo. Eventuali esclusioni dei metadati devono essere eseguite al livello più basso possibile.
 
 metadata.md
 
@@ -30,7 +29,7 @@ metadata.md
 * `git-repo`
 * `index: y`
 
-Sommario
+ToCs
 
 * `sub-product`
 * `user-guide-title`
