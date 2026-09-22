@@ -2,13 +2,14 @@
 title: Utilizzo integrazione Veeva Vault
 description: Utilizzo integrazione Veeva Vault
 exl-id: efff7af1-eb25-4a1d-b7ef-52e3336970ff
-source-git-commit: b4261448e34cdcee9c28410a9d3cd8dbcc9212fa
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 02aa1622ee171cd56ec9cdeb6bdef04b5d5464b5
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 3%
-
+source-wordcount: '1364'
+ht-degree: 7%
 ---
-
 # Utilizzo dell’integrazione
 
 ## Procedura dettagliata
@@ -167,9 +168,9 @@ Compila quanto segue nella scheda di configurazione:
 
 ![Scheda Configurazione](assets/configuration-tab.png)
 
-1. Obbligatorio. Titolo per la configurazione del connettore Veeva Vault. Questo può essere un valore arbitrario. (esempio: `Veeva Vault Configuration`)
+1. Obbligatorio. Titolo per la configurazione del connettore Veeva Vault. Questo può essere un valore arbitrario. (e.g. `Veeva Vault Configuration`)
 2. Obbligatorio. URL del dominio dell&#39;istanza Veeva (esempio: `https://my-instance.veevavault.com/`)
-3. Obbligatorio. ClientID richiesto per chiamare l’API Veeva Vault. Può essere un valore arbitrario ed è utilizzato principalmente per il debug. (esempio: `adobe-aem-vvtechpartner`)
+3. Obbligatorio. ClientID richiesto per chiamare l’API Veeva Vault. Può essere un valore arbitrario ed è utilizzato principalmente per il debug. (e.g. `adobe-aem-vvtechpartner`)
 4. Obbligatorio. Nome utente di Veeva Vault. Vedi [Creazione utente Veeva](#veeva-user-creation).
 5. Obbligatorio. Password di Veeva Vault. Vedi [Creazione utente Veeva](#veeva-user-creation).
 
@@ -179,10 +180,10 @@ Se il progetto deve generare PDF o immagini per le pagine, è necessaria questa 
 
 ![Scheda IO di Adobe](assets/adobe-io-tab.png)
 
-1. Obbligatorio. L’endpoint di Adobe IO per la creazione di immagini PDF fornito nell’e-mail di onboarding. (esempio: `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/trigger-action.json`)
+1. Obbligatorio. L’endpoint di Adobe IO per la creazione di immagini PDF fornito nell’e-mail di onboarding. (e.g. `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/trigger-action.json`)
 2. Obbligatorio. Nome dell&#39;azione per la generazione dell&#39;immagine della pagina. Il valore deve essere `aem-veeva-integration/get-image-async`.
 3. Obbligatorio. Nome dell’azione per la generazione di immagini html. Il valore deve essere `aem-veeva-integration/get-pdf-async-new`.
-4. Obbligatorio. L’endpoint di Adobe IO per ottenere lo stato della generazione fornito nell’e-mail di onboarding.(esempio: `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/get-state-value`)
+4. Obbligatorio. Endpoint I/O di Adobe per ottenere lo stato della generazione fornito nell&#39;e-mail di onboarding. Esempio: `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/get-state-value`
 5. Obbligatorio. Nome utente AEM che deve essere utilizzato da Adobe IO. Consulta [Creazione utente AEM](#aem-user-creation).
 6. Obbligatorio. Password di AEM che deve essere utilizzata da Adobe IO. Consulta [Creazione utente AEM](#aem-user-creation).
 7. Facoltativo. Il timeout predefinito prevede che la pagina risponda fino a un determinato intervallo di tempo dopo il quale il servizio AIO smette di tentare di ottenere una risposta. Il valore predefinito è `30000`.
@@ -197,16 +198,16 @@ Compila quanto segue nella scheda Avanzate:
 
 ![Scheda Avanzate](assets/advanced-tab.png)
 
-1. Obbligatorio per la generazione di PDF/immagini. Pattern di nome file utilizzato per la creazione di PDF/immagini. `{name}` può essere impostato come modello. (esempio: `{name}-screenshot`)
+1. Obbligatorio per la generazione di PDF/immagini. Pattern di nome file utilizzato per la creazione di PDF/immagini. `{name}` può essere impostato come modello. (e.g. `{name}-screenshot`)
 2. Facoltativo. I tipi di dispositivi per i quali sono necessarie schermate di pagina diverse da Desktop. I tipi validi includono `Tab (iPad)` e `Mobile (iPhone X)`.
-3. Facoltativo. Il valore del tipo di rappresentazione in Veeva che rappresenta la rappresentazione precedente. (esempio: `web_ready__c`)
+3. Facoltativo. Il valore del tipo di rappresentazione in Veeva che rappresenta la rappresentazione precedente. (e.g. `web_ready__c`)
 4. Obbligatorio per la generazione di PDF/immagini. Tipo di schermata da creare. `PDF` o `Image`.
 5. Obbligatorio per la generazione di PDF/immagini. Tipo di PDF da generare. `Print CSS Based PDF` o `Pixel Perfect Screenshot PDF`.
 6. Obbligatorio per la generazione di PDF/immagini. Tipo di immagine da generare. `PNG` o `JPEG`.
 7. Obbligatorio. Flusso di lavoro da eseguire dopo il trigger di approvazione di Veeva Vault.
-8. Obbligatorio. Valore della proprietà Status che rappresenta Approvato. (esempio: `Approved for Distribution`)
+8. Obbligatorio. Valore della proprietà Status che rappresenta Approvato. (e.g. `Approved for Distribution`)
 9. Obbligatorio. Flusso di lavoro da eseguire dopo il trigger Rifiuto di Veeva Vault.
-10. Obbligatorio. Valore della proprietà Status che rappresenta Rifiutato/Non approvato. (esempio: `Rejected`)
+10. Obbligatorio. Valore della proprietà Status che rappresenta Rifiutato/Non approvato. (e.g. `Rejected`)
 11. Facoltativo. Nome proprietà per ID documento in Veeva Vault. Il valore predefinito è `id`.
 12. Facoltativo. Nome proprietà per stato in Veeva Vault. Il valore predefinito è `status__v`.
 13. Facoltativo. Nome proprietà per Data modifica documento. Il valore predefinito è `version_modified_date__v`.
@@ -223,12 +224,12 @@ Se sincronizzi le pagine, compila quanto segue nella scheda della pagina:
 
 1. Obbligatorio. Mappa una proprietà da AEM a Veeva.
 a. Nome della proprietà AEM. Selezionabile dalle proprietà di AEM. (esempio: `jcr:title`) `{name}` può essere modellato.
-b. Il nome della proprietà Veeva immesso esattamente in esiste in Veeva. (esempio: `name__v`)\
+b. Il nome della proprietà Veeva immesso esattamente in esiste in Veeva. (e.g. `name__v`)\
    c. Tipo di proprietà. `Text` o `Multiline Text`.
 
 2. Obbligatorio. Mappa una proprietà da Veeva a AEM.
-a. Il nome della proprietà Veeva immesso esattamente in esiste in Veeva. (esempio: `name__v`)
-b. Nome della proprietà AEM. Selezionabile dalle proprietà di AEM. (esempio: `jcr:title`)
+a. Il nome della proprietà Veeva immesso esattamente in esiste in Veeva. (e.g. `name__v`)
+b. Nome della proprietà AEM. Selezionabile dalle proprietà di AEM. (e.g. `jcr:title`)
 c. Tipo di proprietà. `Text` o `Multiline Text`.
 
 
@@ -240,12 +241,12 @@ Per sincronizzare le risorse, compila quanto segue nella scheda delle risorse:
 
 1. Obbligatorio. Mappa una proprietà da AEM a Veeva.
 a. Nome della proprietà AEM. Selezionabile dalle proprietà di AEM. (esempio: `/jcr:content/metadata/jcr:title`) `{name}` può essere modellato.
-b. Il nome della proprietà Veeva immesso esattamente in esiste in Veeva. (esempio: `name__v`)
+b. Il nome della proprietà Veeva immesso esattamente in esiste in Veeva. (e.g. `name__v`)
 c. Tipo di proprietà. `Text` o `Multiline Text`.
 
 2. Obbligatorio. Mappa una proprietà da Veeva a AEM.
-a. Il nome della proprietà Veeva immesso esattamente in esiste in Veeva. (esempio: `name__v`)
-b. Nome della proprietà AEM. Selezionabile dalle proprietà di AEM. (esempio: `/jcr:content/metadata/jcr:title`)
+a. Il nome della proprietà Veeva immesso esattamente in esiste in Veeva. (e.g. `name__v`)
+b. Nome della proprietà AEM. Selezionabile dalle proprietà di AEM. (e.g. `/jcr:content/metadata/jcr:title`)
 c. Tipo di proprietà. `Text` o `Multiline Text`.
 
 ### Configurazione aggiuntiva
